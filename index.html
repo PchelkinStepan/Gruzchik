@@ -8,9 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
     <title>gruzchiki-dzr</title>
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="logo">
             <img style="width: 80px; height: 80px;" src="./img/gerb.png" alt="">
@@ -31,23 +34,28 @@
         </div>
         <img class="poisk" style="width: 20px; height: 20px;" src="./img/icons/poisk.png.crdownload" alt="">
     </header>
-    <section class="slider">
-        <div class="slider__inner">
-            <h2 class="slider__title">Любые габариты грузов</h2>
-            <p class="slider__text">Описание акции или другая дополнительная информация</p>
-            <button class="slider__btn">Подробности</button>
+
+    <!-- Slider -->
+
+    <div class="slider">
+        <div class="slide">
+            <img style="width: 100%; height: 500px;" src="./img/slider/slider1.jpg" alt="">
         </div>
-    </section>
+        <div class="slide">
+            <img style="width: 100%; height: 500px;" src="./img/slider/slider2.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img style="width: 100%; height: 500px;" src="./img/slider/slider3.jpg" alt="">
+        </div>
+    </div>
 
 
 
-
-
-    <section class="card">
-        <h1 class="card__title">Мы предлагаем</h1>
-        <p class="card__text"> Съешь же ещё этих мягких французских булок да выпей чаю.</p>
-    </section>
-
-
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+     crossorigin="anonymous"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

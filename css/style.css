@@ -83,74 +83,25 @@
 }
 
 
-/* Слайдер */
+/* Слайдер Slider*/
 
-.slider {
-    background-image: url(../img/slider/slider2.jpg);
+
+
+
+
+/* .slide {
+    width: 90%;
+} */
+
+.photo {
+    width: 40px;
+    height: 40px;
+    display: block;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    filter: brightness(50%);
-    width: 100%;
-    height: 500px;
-    margin-bottom: 20px;
-}
-
-
-.slider__inner {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    top: 0;
-    left: 0;
-}
-
-.slider__title {
-    font-size: 64px;
-    margin-bottom: 15px;
-}
-
-.slider__text {
-    font-size: 24px;
-    margin-bottom: 30px;
-}
-
-.slider__btn {
-    padding: 15px 40px;
-    background: transparent;
+    border-radius: 50%;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Card */
-
-.card {
-    margin-bottom: 100px;
-}
-
-.card__title {
-    text-align: center;
-    font-size: 30px;
-}
-
-.card__text {
-    text-align: center;
-}
