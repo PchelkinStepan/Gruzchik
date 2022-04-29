@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: auto;
+    align-items: center;
+    background-color: #3415;
+    padding: 10px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo > span {
+    font-weight: 900;
+    text-align: left;
+    font-size: 24px;
+}
+
+.info {
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    border: 1px solid #333;
+    border-radius: 40px;
+    padding: 5px;
+    transition: 0,5s;
+}
+
+.info:hover {
+    /* background-color: blueviolet; */
+    color: #fff;
+}
+
+.tel {
+    text-decoration: none;
+    color: #333;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+
+.tel:hover {
+    color: #fff;
+}
+
+.poisk {
+    justify-self: end;
+    cursor: pointer;
+}
+
+.hr {
+    grid-column: 1/3;
+    height: 1px;
+}
+
+.link {
+    text-decoration: none;
+    color: #333;
+}
+
+.link:hover {
+    color: #fff;
+}
+
+.spisok {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* Слайдер */
+
+.slider {
+    background-image: url(../img/slider/slider2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(50%);
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+
+.slider__inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    top: 0;
+    left: 0;
+}
+
+.slider__title {
+    font-size: 64px;
+    margin-bottom: 15px;
+}
+
+.slider__text {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.slider__btn {
+    padding: 15px 40px;
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Card */
+
+.card {
+    margin-bottom: 100px;
+}
+
+.card__title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card__text {
+    text-align: center;
+}
