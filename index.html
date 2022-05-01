@@ -15,13 +15,13 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="logo">
+        <div class="header__logo">
             <img style="width: 80px; height: 80px;" src="./img/gerb.png" alt="">
-            <span>Грузчики в Дзержинске <br> Часы работы: с 08:00 до 21:00</span>
+            <span>Грузчики в Дзержинске</span>
         </div>
-        <div class="info">
-            <img style="width: 30px; height: 30px;" src="./img/icons/tel.png.crdownload" alt="">
-            <a href="tel:89535612547" class="tel">+7(953)561-25-47</a>            
+        <div class="header__info">
+            <img style="width: 30px; height: 30px;" src="./img/icons/3643779-clock-hour-ticker-time-times_113446.svg" alt="">
+            <h1 class="header__title">Часы работы</h1>
         </div>
         <hr class="hr">
         <div class="links">
@@ -36,18 +36,134 @@
     </header>
 
     <!-- Slider -->
-
     <div class="slider">
         <div class="slide">
-            <img style="width: 100%; height: 500px;" src="./img/slider/slider1.jpg" alt="">
+            <img class="slide__img" src="./img/slider/slider2.jpg" alt="">
+            <div class="slide__inner">
+                <h2 class="slide__title">Любые габариты грузов</h2>
+                <p class="slide__text">Приезжаем в день обращения</p>   
+                <p><a class="slide__btn" href="#">Подробнее</a></p>
+            </div>
         </div>
         <div class="slide">
-            <img style="width: 100%; height: 500px;" src="./img/slider/slider2.jpg" alt="">
+            <img class="slide__img" src="./img/slider/slider2.jpg" alt="">
+            <div class="slide__inner">
+                <h2 class="slide__title">Любые габариты грузов</h2>
+                <p class="slide__text">Приезжаем в день обращения</p>   
+                <p><a class="slide__btn" href="#">Подробнее</a></p>
+            </div>
         </div>
         <div class="slide">
-            <img style="width: 100%; height: 500px;" src="./img/slider/slider3.jpg" alt="">
+            <img class="slide__img" src="./img/slider/slider2.jpg" alt="">
+            <div class="slide__inner">
+                <h2 class="slide__title">Любые габариты грузов</h2>
+                <p class="slide__text">Приезжаем в день обращения</p>   
+                <p><a class="slide__btn" href="#">Подробнее</a></p>
+            </div>
         </div>
     </div>
+
+
+    <!-- Section -->
+    <section class="section">
+        <div class="section__wrapper">
+            <h3 class="section__title">Мы предлагаем</h3>
+            <p class="section__text">Съешь же ещё этих мягких французских булок да выпей чаю.</p>
+            <div class="section__line"></div>
+        </div>
+        <div class="section__cards">
+            <div class="card__inner">
+                <div class="card__image">
+                    <img class="card__img" src="./img/slider/slider1.jpg" alt="photo">
+                </div>
+                <h3 class="card__title">Наименование1</h3>
+                <p class="card__text">Съешь же ещё этих мягких французских булок да выпей чаю.</p>
+                <p class="card__price">30 000 ₽</p>
+                <p><a href="#" class="card__link">Подробности</a></p>
+            </div>
+            <div class="card__inner">
+                <div class="card__image">
+                    <img class="card__img" src="./img/slider/slider2.jpg" alt="photo">
+                </div>
+                <h3 class="card__title">Наименование1</h3>
+                <p class="card__text">Съешь же ещё этих мягких французских булок да выпей чаю.</p>
+                <p class="card__price">30 000 ₽</p>
+                <p><a href="#" class="card__link">Подробности</a></p>
+            </div>
+            <div class="card__inner">
+                <div class="card__image">
+                    <img class="card__img" src="./img/slider/slider3.jpg" alt="photo">
+                </div>
+                <h3 class="card__title">Наименование1</h3>
+                <p class="card__text">Съешь же ещё этих мягких французских булок да выпей чаю.</p>
+                <p class="card__price">30 000 ₽</p>
+                <p><a href="#" class="card__link">Подробности</a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section1 -->
+    <section class="section1">
+        <div class="section__wrapper">
+            <h3 class="section__title">Наши преимущества</h3>
+            <div class="section__line"></div>
+        </div>
+        <div class="section1__wrapper">
+            <div class="section1__inner">
+                <div class="section1__icons">
+                    <img class="section1__icon" src="./img/icons/center_headphones_call_support_icon_153922 (1).svg" alt="">
+                </div>
+                <h4 class="section1__title">Доступность</h4>
+                <p class="section1__text"> Достаточно заказать обратный звонок</p>
+            </div>
+        <div class="section1__inner">
+            <div class="section1__icons">
+                <img class="section1__icon" src="./img/icons/3440906-direction-location-map-marker-navigation-pin_107531.svg" alt="">
+            </div>
+            <h4 class="section1__title">Доступность</h4>
+            <p class="section1__text"> Достаточно заказать обратный звонок</p>
+        </div>
+            <div class="section1__inner">
+                <div class="section1__icons">
+                    <img class="section1__icon" src="./img/icons/facebookthumbup_122002.svg" alt="">
+                </div>
+                <h4 class="section1__title">Доступность</h4>
+                <p class="section1__text"> Достаточно заказать обратный звонок</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section__sale -->
+    <section class="section__sale">
+        <div class="sale__wrapper">
+            <div class="sale__inner">
+                    <h3 class="sale__title">Торопитесь, скидка 20% до конца месяца!</h3>
+                    <p class="sale__text">Скидка — сумма, на которую снижается продажная цена товара, реализуемого покупателю. Исторически скидки появились и стали использоваться в условиях уличной торговли товарами, когда продавец в результате торга предоставлял скидку тому покупателю, который приобретает больше товаров.</p>
+                </div>
+                <a href="" class="card__link">Подробнее</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section info -->
+    <section class="section__info">
+        <div class="info__wrapper">
+            <h4 class="info__title">О компании</h4>
+            <p class="info__text">Текст о компании – это идеальная возможность для отстройки от конкурентов. Нужно оперировать фактами. Пусть их будет немного, но именно они будут демонстрировать уникальность вашей компании.</p>
+            <p class="info__text">Текст о компании – это идеальная возможность для отстройки от конкурентов. Нужно оперировать фактами. Пусть их будет немного, но именно они будут демонстрировать уникальность вашей компании.</p>
+            <p><a href="#" class="info__link">Подробнее</a></p>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
 
 
 
